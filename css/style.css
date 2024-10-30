@@ -1,0 +1,156 @@
+@CHARSET "UTF-8";
+
+#wpsos {
+	position: relative;
+}
+
+#wpsos .quickstart-wrapper {
+	position: absolute;
+    background: rgba(0,0,0,0.6);
+    width: 100%;
+    padding: 60px 0px;
+    height: 100%;
+    top: 97px;
+}
+
+#wpsos #quickstart {
+	margin: 0 auto;
+	width: 70%;
+}
+
+#wpsos #quickstart .form-wrapper {
+	padding: 20px 12px;
+}
+
+#wpsos img {
+	max-width: 90%;
+    margin: 10px 5%;
+}
+#wpsos h2 {
+	font-size: 1.5em;
+}
+#wpsos h3 {
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+.toggle-btn {
+	display: none;
+	color: #17a05e;
+	font-weight: bold;
+}
+
+#wpsos th {
+	width: 200px;
+}
+
+#wpsos .form-wrapper {
+	margin: 10px 0px;
+    background-color: #fff;
+    padding: 1px 12px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+}
+
+#wpsos .form-wrapper label {
+	display: block;
+}
+
+#wpsos .subnote {
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 500;
+}
+
+#wpsos p.important {
+	color: #d60000;
+}
+
+#wpsos input[type="submit"] {
+	border: none;
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+#wpsos input.submit {
+	background: #17a05e;
+}
+#wpsos input.submit:hover {
+  background: #006131;
+}
+
+#wpsos input.remove {
+	border: 1px solid #d60000 !important;
+	color: #d60000 !important;
+	background: #fff;
+}
+#wpsos input.remove:hover {
+	color: #fff !important;
+	background: #d60000;
+}
+
+#wpsos #users-modify th {
+	max-width: 150px;
+	padding: 15px 10px;
+}
+
+@media screen and (max-width: 800px) {
+    #wpsos #users-modify th {
+    	display: none;
+    }
+}
+
+#wpsos .warning {
+	border: 1px solid #d60000;
+}
+#wpsos p.warning {
+	border: none;
+	border-bottom: 1px solid #d60000;
+}
+#wpsos .lp.warning {
+	padding: 10px;
+    font-size: 14px;
+}
+#wpsos .warning h4 {
+	color: #d60000;
+}
+
+.wpsos-global-notification {
+    padding: 1px 10px;
+    background: #fff;
+    min-height: 30px;
+    line-height: 30px;
+}
+
+.wpsos-global-notification a {
+	color: #17a05e;
+	font-weight: bold;
+}
+
+#wpsos textarea {
+	width: 100%;
+}
+#wpsos #general textarea {
+	min-height: 125px;
+}
+#wpsos #keywords tr.odd {
+	background: rgba(0,0,0,.03);
+}
+
+#keywords tr td:first-child {
+    max-width: 100px;
+}
+#wpsos #instructions p,
+#wpsos #instructions ol *,
+#wpsos #developers,
+#wpsos #support {
+	font-size: 14px;
+	line-height: 1.4em;
+}
+#wpsos #instructions li {
+	margin: 15px 0px;
+}
